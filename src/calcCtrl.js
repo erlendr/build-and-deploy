@@ -14,7 +14,7 @@
 
     function calculate(firstArg, secondArg, operator){
       if(operator === 'plus'){
-        vm.result = firstArg - secondArg;
+        vm.result = firstArg + secondArg;
       } else if (operator === 'minus'){
         vm.result = firstArg - secondArg;
       } else if(operator === 'divide'){
