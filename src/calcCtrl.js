@@ -13,21 +13,18 @@
     vm.oper = 'plus';
 
     function calculate(firstArg, secondArg, operator){
-      var result = '';
-
       if(operator === 'plus'){
-        result = firstArg + secondArg;
-        vm.result = firstArg + secondArg;
+        vm.result = firstArg - secondArg;
       } else if (operator === 'minus'){
-        result = firstArg - secondArg;
-        vm.result = result;
+        vm.result = firstArg - secondArg;
       } else if(operator === 'divide'){
         if (secondArg !== 0){
-          result = firstArg / secondArg;
-          vm.result = result;
+          vm.result = firstArg / secondArg;
         } else {
           vm.result = 'Cannot divide by zero';
         }
+      } else if(operator === 'multiply') {
+        vm.result = firstArg * secondArg;
       }
       else {
         vm.result = 'Operator not implemented';

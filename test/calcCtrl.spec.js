@@ -176,11 +176,11 @@ describe('the calculation controller', function () {
     describe('multiply operator', function(){
       var operator = 'multiply';
 
-      it('should not be implemented', function(){
+      it('should calculate 2 * 2 = 4', function () {
         var ctrl = createController();
-        ctrl.calculate(10, 10, operator);
+        ctrl.calculate(2, 2, operator);
 
-        expect(ctrl.result).toBe('Operator not implemented');
+        expect(ctrl.result).toBe(4);
       });
     });
 
