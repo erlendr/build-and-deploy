@@ -21,6 +21,7 @@
     "load-grunt-tasks": "^3.4.1"
   },
   "devDependencies": {
+    "grunt-contrib-jshint": "^1.1.0",
     "jasmine-core": "^2.4.1",
     "karma-jasmine": "^1.1.1",
     "karma-phantomjs2-launcher": "^0.5.0"
