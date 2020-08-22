@@ -10,7 +10,7 @@
   "homepage": "https://github.com/nerdschoolbergen/build-and-deploy",
   "dependencies": {
     "bower": "^1.8.2",
-    "grunt": "^1.0.1",
+    "grunt": "^1.3.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-connect": "^1.0.2",
