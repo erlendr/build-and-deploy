@@ -26,12 +26,6 @@ jobs:
           name: artifact
           path: ./code/dist
 
-      - name: Archive artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: artifact
-          path: ./code/dist
-
   deploy:
     runs-on: ubuntu-latest
     name: Deploy application to Azure Static Websites
