@@ -18,3 +18,8 @@ test('getSecondsLeftOfYear returns the correct amount of seconds', () => {
     expect(timeString).toBe(3600);
 });
 
+test('getSecondsLeftOfYear returns the correct amount of seconds and two digit fractions', () => {
+    const now = new Date("2022-12-31T23:00:00.120Z");
+    const timeString = getSecondsLeftOfYear(now);
+    expect(timeString).toBe(3599.88);
+});
