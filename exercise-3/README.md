@@ -23,7 +23,7 @@ You will learn:
 
 :pencil2: Open the main page for your GitHub repository and select _Settings_
 
-:pencil2: Select _Secrets_ in the left hand menu, under _Security_, then _Actions_.
+:pencil2: Select _Secrets and variables_ in the left hand menu, under _Security_, then _Actions_.
 
 :pencil2: Select _New repository secret_
 
