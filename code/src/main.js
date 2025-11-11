@@ -11,5 +11,3 @@ const render = () => {
 
 render();
 setInterval(render, 1000);
-
-const x = 1;
